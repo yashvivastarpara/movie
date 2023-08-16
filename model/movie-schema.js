@@ -2,7 +2,6 @@ const mongoose=require("mongoose")
 let movieschema=new mongoose.Schema({
     name:String,
     rating:Number,
-    charactorname:String,
     discription:String,
     relisedate:Number,
     language:String,

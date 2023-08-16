@@ -23,7 +23,6 @@ const movieImage = async (req, res) => {
   let data = {
     name: req.body.name,
     rating: req.body.rating,
-    charactorname: req.body.charactorname,
     discription: req.body.discription,
     relisedate: req.body.relisedate,
     language: req.body.language,
