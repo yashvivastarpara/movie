@@ -1,5 +1,6 @@
 const mongoose = require("mongoose")
-const connection = async ()=>{
+const connect = async ()=>{
     await mongoose.connect("mongodb://127.0.0.1:27017")
+    console.log("Connected to MongoDB");
 }
-module.exports= connection
+module.exports= connect
