@@ -12,7 +12,7 @@ const moviedata = async (req, res) => {
 };
 const movieImage = async (req, res) => {
   // console.log(req.files);
-//   console.log(req.body);
+  //   console.log(req.body);
   let path = getdir();
 
   let images = [];
@@ -28,7 +28,8 @@ const movieImage = async (req, res) => {
     language: req.body.language,
     image: images,
   };
-console.log(data);
+
+  console.log(data);
   res.send("image added successfully");
 };
 
